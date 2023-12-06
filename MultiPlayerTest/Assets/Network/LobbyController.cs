@@ -55,6 +55,7 @@ public class LobbyController : MonoBehaviour
     {
         if(!PlayerItemCreated) { CreateHostPlayterItem(); } //Host
         if(PlayerListItems.Count < Manager.GamePlayers.Count) { CreateClientPlayerItem(); }
+
     }
 
     public void CreateHostPlayterItem()
