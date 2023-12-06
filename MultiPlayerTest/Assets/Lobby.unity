@@ -832,6 +832,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d604c770ec9da4f4a8cd54d85370dd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LobbyNameText: {fileID: 0}
+  PlayerListViewContent: {fileID: 0}
+  PlayerListItemPrefab: {fileID: 0}
+  LocalPlayerObject: {fileID: 0}
+  CurrentLobbyID: 0
+  PlayerItemCreated: 0
+  LocalplayerController: {fileID: 0}
 --- !u!4 &1678111407
 Transform:
   m_ObjectHideFlags: 0
@@ -1308,7 +1315,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 818755134}
   m_HandleRect: {fileID: 818755133}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
