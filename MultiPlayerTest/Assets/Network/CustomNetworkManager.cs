@@ -13,7 +13,10 @@ public class CustomNetworkManager : NetworkManager
     {
         if (SceneManager.GetActiveScene().name == "Lobby")
         {
-            PlayerObjectController GamePLayerInstance = Instantiate(GamePlayerPrefab);
+            PlayerObjectController GamePlayerInstance = Instantiate(GamePlayerPrefab);
+
+
+
         }
 
 
