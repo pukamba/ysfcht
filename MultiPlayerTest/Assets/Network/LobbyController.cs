@@ -8,7 +8,7 @@ using System.Linq;
 
 public class LobbyController : MonoBehaviour
 {
-    puplic static LobbyController Instance;
+    public static LobbyController Instance;
 
     //UI Elements
     public Text LobbyNameText;
