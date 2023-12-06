@@ -50,7 +50,7 @@ public class PlayerListItem : MonoBehaviour
                 texture.Apply();
             }
         }
-        AvatarReceived = true;
+        AvatarReceiced = true;
         return texture;
     }
 
